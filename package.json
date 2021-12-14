@@ -1,0 +1,16 @@
+{
+  "name": "PostmanNewman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "newman": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "newman": "newman run Smoke_test.postman_collection.json -e Stage.postman_environment.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
